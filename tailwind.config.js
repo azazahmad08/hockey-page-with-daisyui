@@ -6,6 +6,7 @@ module.exports = {
       backgroundColor: {
         'white': '#ffffff', // You can use any color value for white
       },
+      
     },
   },
   plugins: [],
