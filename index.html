@@ -19,7 +19,8 @@
   </head>
   <body class="bg-white">
     <header class="bg-white">
-      <div class="navbar bg-white lg:w-3/4 sm:w-full lg:ml-36 mr-2">
+      <!-- Navbar -->
+      <div class="navbar bg-white lg:w-3/4 sm:w-full lg:mx-auto mr-2">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -60,21 +61,23 @@
             <li><a>Contact</a></li>
           </ul>
         </div>
-        <div class="navbar-end sm:mr-3 ">
-          <img src="images/searcon.png" alt="search icon" class="w-7 h-7 mr-6">
+        <div class="navbar-end sm:mr-3">
+          <img
+            src="images/searcon.png"
+            alt="search icon"
+            class="w-7 h-7 mr-6"
+          />
           <a class="btn rounded-2xl p-4 text-white bg-red-500 border-none"
             >Get Ticket</a
           >
         </div>
       </div>
     </header>
-    <div class="container bg-white lg:w-3/4 sm:w-full lg:ml-40 mt-16">
-      <div class="carousel w-full ">
-        <div id="slide1" class="carousel-item relative w-full">
-          <img
-            src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
-            class="w-full"
-          />
+    <!-- carousel / Slider -->
+    <div class="container bg-white lg:w-3/4 sm:w-full lg:mx-auto mt-16 sm:mx-5">
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full h-[550px]">
+          <img src="Images/1.png" class="w-full" />
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
           >
@@ -82,11 +85,8 @@
             <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
         </div>
-        <div id="slide2" class="carousel-item relative w-full">
-          <img
-            src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
-            class="w-full"
-          />
+        <div id="slide2" class="carousel-item relative w-full h-[550px]">
+          <img src="Images/2.png" class="w-full" />
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
           >
@@ -94,11 +94,8 @@
             <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
         </div>
-        <div id="slide3" class="carousel-item relative w-full">
-          <img
-            src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
-            class="w-full"
-          />
+        <div id="slide3" class="carousel-item relative w-full h-[550px]">
+          <img src="Images/3.png" class="w-full" />
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
           >
@@ -106,11 +103,8 @@
             <a href="#slide4" class="btn btn-circle">❯</a>
           </div>
         </div>
-        <div id="slide4" class="carousel-item relative w-full">
-          <img
-            src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-            class="w-full"
-          />
+        <div id="slide4" class="carousel-item relative w-full h-[550px]">
+          <img src="Images/4.png" class="w-full" />
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
           >
@@ -120,7 +114,114 @@
         </div>
       </div>
     </div>
-    <main></main>
-    <footer></footer>
+    <!-- Black Part for container -->
+    <div
+      class="h-[20vh] sm:w2/3 sm:mx-4 lg:w-1/3 mx-auto rounded-2xl bg-black lg:-translate-y-56 lg:translate-x-[900px]"
+    >
+      <h2 class="text-center text-2xl text-[#FFFFFF] pt-3">
+        Meet all the heroes from the field
+      </h2>
+      <p class="text-center text-l text-[#FFFFFF99] pt-3 align-center">
+        Dit amet consectetur. Condimentum <br />
+        dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
+        nullam proin.
+      </p>
+    </div>
+    <!-- Professional Hockey Part -->
+    <div
+      class="w-full items-center justify-center mx-auto font-sans sm:mt-11 border-y-2 border-dotted sm:mx-3 bg-white"
+    >
+      <h2 class="text-center text-2xl text-black font-bold mb-4 mt-4">
+        Professional Hockeys Club
+      </h2>
+      <p class="text-center text-base mb-6">
+        Dit amet consectetur. Condimentum dignissim adipiscing <br />
+        aliquam turpis placerat dolor. Purus urna in sit nullam proin.
+      </p>
+    </div>
+    <!-- Progress Bar -->
+    <div
+      class="progressbardiv mt-10 flex flex-col items-center justify-center mx-auto lg:flex-row lg:justify-center space-y-4"
+    >
+      <div class="w-48 lg:w-full text-center">
+        <div
+          class="radial-progress text-red-600"
+          style="--value: 87"
+          role="progressbar"
+        >
+          87%
+        </div>
+        <div>
+          <h2 class="text-center">Prayer Facility</h2>
+          <p class="text-center">
+            Amet consectetur. Condimentum dignissim adipiscing .
+          </p>
+        </div>
+      </div>
+
+      <div class="w-48 lg:w-full text-center">
+        <div
+          class="radial-progress text-[#49D293]"
+          style="--value: 95"
+          role="progressbar"
+        >
+          95%
+        </div>
+        <div>
+          <h2 class="text-center">Prayer Facility</h2>
+          <p class="text-center">
+            Amet consectetur. Condimentum dignissim adipiscing .
+          </p>
+        </div>
+      </div>
+
+      <div class="w-48 lg:w-full text-center">
+        <div
+          class="radial-progress text-yellow-500"
+          style="--value: 90"
+          role="progressbar"
+        >
+          90%
+        </div>
+        <div>
+          <h2 class="text-center">Prayer Facility</h2>
+          <p class="text-center">
+            Amet consectetur. Condimentum dignissim adipiscing .
+          </p>
+        </div>
+      </div>
+
+      <div class="w-48 lg:w-full text-center">
+        <div
+          class="radial-progress text-blue-500"
+          style="--value: 80"
+          role="progressbar"
+        >
+          80%
+        </div>
+        <div>
+          <h2 class="text-center">Prayer Facility</h2>
+          <p class="text-center">
+            Amet consectetur. Condimentum dignissim adipiscing .
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Program Section -->
+    <div
+      class="ps w-full items-center justify-center mx-auto font-sans sm:mt-11 border-y-2 border-dotted sm:mx-3 bg-white"
+    >
+      <h2 class="text-center text-4xl text-black font-extrabold pt-5 font-sans">
+        Program Sections
+      </h2>
+      <p class="text-center">
+        Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+        placerat dolor. Purus urna in sit nullam proin.
+      </p>
+    </div>
+    <!-- Card Area -->
+
+    
+    
   </body>
 </html>
